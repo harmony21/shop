@@ -1,0 +1,52 @@
+@font-face {
+  font-family: MTSSans-Regular;
+  src: url("fonts/MTSSans-Regular.woff"); }
+
+@font-face {
+  font-family: MTSSans-Medium;
+  src: url("fonts/MTSSans-Medium.woff"); }
+
+@font-face {
+  font-family: MTSSans-Bold;
+  src: url("fonts/MTSSans-Bold.woff"); }
+
+html {
+  height: 100%;
+  overflow-x: hidden; }
+
+body {
+  font-family: MTSSans-Regular;
+  width: 100%;
+  overflow-x: hidden;
+  min-width: 300px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  outline: none; }
+  a:hover {
+    cursor: pointer; }
+
+p {
+  line-height: 1.5; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5; }
+
+img {
+  border: none; }
+
+table {
+  border-color: #fff; }
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.container {
+  padding: 35px 162px; }

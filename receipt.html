@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Раз Два</title>
+        <meta content="IE=edge" http-equiv="x-ua-compatible">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link href="css/normalize.css" type="text/css" rel="stylesheet" />  
+        <link href="css/jquery.fancybox.min.css" type="text/css" rel="stylesheet" /> 
+        <link href="styles.css" type="text/css" rel="stylesheet" /> 
+        <link href="template_styles.css" type="text/css" rel="stylesheet" /> 
+    </head>
+    <body>
+
+        <header id="header" class="header">
+            <div class="container">
+                <div class="header__wrap">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="change-data.html" class="active">Профиль</a></li>
+                            <li><a href="receipt.html" class="active">Чеки и призы</a></li>
+                        </ul>
+                    </div>
+                    <div class="links">
+                        <ul>
+                            <li><a href="" class="btn">Сайт акции</a></li>
+                            <li><a href="reg-receipt.html" class="btn">Добавить чек</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="content-zone">
+            <div class="container">
+
+                <div class="tab-wrapper">
+                    <input type="radio" name="tab" id="tab1" checked />
+                    <label class="tab-label no-select" for="tab1" nth="1">Зарегистрированные чеки</label>
+                    <div class="tab-item" id="tab-content1">
+
+                        <div class="tab-block">
+                            <ul>
+                                <li>Дата</li>
+                                <li>29.04.2021</li>
+                                <span class="status">Одобрен</span>
+                                <li>29.04.2021</li>
+                                <span class="status">Проверка</span>
+                                <li>29.04.2021</li>
+                                <span class="status">Отклонен</span>
+                                <li>29.04.2021</li>
+                                <span class="status">Выигран</span>
+                            </ul>
+                            <ul>
+                                <li>ФН</li>
+                                <li>9289000100386134</li>
+                                <li>9289000100386134</li>
+                                <li>9289000100386134</li>
+                                <li>9289000100386134</li>
+                            </ul>
+                            <ul>
+                                <li>ФП</li>
+                                <li>4208223768</li>
+                                <li>4208223768</li>
+                                <li>4208223768</li>
+                                <li>4208223768</li>
+                            </ul>
+                            <ul>
+                                <li>ФП/ФПД</li>
+                                <li>0000015840</li>
+                                <li>0000015840</li>
+                                <li>0000015840</li>
+                                <li>0000015840</li>
+                            </ul>
+                            <ul class="hidden">
+                                <li>Статус</li>
+                                <li>Одобрен</li>
+                                <li>Проверка</li>
+                                <li>Отклонен</li>
+                                <li>Выигран</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                
+                    <input type="radio" name="tab" id="tab2" />
+                    <label class="tab-label no-select" for="tab2" nth="2">Выигранные призы</label>
+                    <div class="tab-item" id="tab-content2">
+                    
+                        <div class="tab-block usual">
+                            <ul>
+                                <li>29.04.2021</li>
+                                <li>29.04.2021</li>
+                            </ul>
+                            <ul>
+                                <li>Вы выиграли приз</li>
+                                <li>Вы выиграли приз</li>
+                            </ul>
+                            <ul>
+                                <li>Сертификат на покупку Домашнего кинотеатра</li>
+                                <li>Годовая подписка IVI на сумму 4000 р.</li>
+                            </ul>
+                        </div>
+                    </div>
+            
+                    
+                </div>
+                
+
+
+
+            </div>
+        </div>
+
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="footer__menu">
+                    <ul>
+                        <li><a href="">Правила акции</a></li>
+                        <li><a href="">Пользовательское согашение</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Обратная связь</a></li>
+                        <li><a href="">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+                <div class="footer__block">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/logo-footer.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="footer__desc">
+                        <p>* Подарочная карта в магазин бытовой техники на сумму 50 000 рублей.</p>
+                        <p>&copy; ООО "БТЛ групп". Все права защищены</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="js/jquery-3.2.1.js"></script>
+
+        <script src="js/jquery.fancybox.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

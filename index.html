@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Раз Два</title>
+        <meta content="IE=edge" http-equiv="x-ua-compatible">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link href="css/normalize.css" type="text/css" rel="stylesheet" />  
+        <link href="css/jquery.fancybox.min.css" type="text/css" rel="stylesheet" /> 
+        <link href="styles.css" type="text/css" rel="stylesheet" /> 
+        <link href="template_styles.css" type="text/css" rel="stylesheet" /> 
+    </head>
+    <body>
+
+        <header id="header" class="header">
+            <div class="container">
+                <div class="header__wrap">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="change-data.html" class="active">Профиль</a></li>
+                            <li><a href="receipt.html">Чеки и призы</a></li>
+                        </ul>
+                    </div>
+                    <div class="links">
+                        <ul>
+                            <li><a href="" class="btn">Сайт акции</a></li>
+                            <li><a href="reg-receipt.html" class="btn">Добавить чек</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <h1 class="section-title">Регистрация</h1>
+
+        <div class="content-zone">
+            <div class="container">
+                <form class="form">
+                    <div class="form__block">
+                        <label>Фамилия<input type="text" required placeholder="Фамилия"></label>
+                        <label>Имя<input type="text" required placeholder="Имя"></label>
+                        <label>Отчество<input type="text" required placeholder="Отчество"></label>
+                    </div>
+
+                    <div class="form__block">
+                        <label>E-mail<input type="email" required placeholder="xxxx@xxxx.ru"></label>
+                        <label>Номер телефона<input type="tel" id="phone" required placeholder="Номер телефона"></label>
+                    </div>
+
+                    <div class="form__block">
+                        <label>Дата рождения<input type="date"></label>
+
+                        <label>
+                            Пол
+                            <select name="sex" id="sex">
+                                <option disabled>Мужской</option>
+                                <option value="Мужской">Мужской</option>
+                                <option value="Женский">Женский</option>
+                            </select>
+                        </label>
+
+                        <label>Город проживания<input type="text" required placeholder="Город проживания"></label>
+                    </div>
+
+                    <div class="form__block">
+                        <label>Пароль<input type="password" required></label>
+                        <label>Повторите пароль<input type="password" required></label>
+                    </div>
+
+
+                    <input type="submit" class="btn" value="Зарегистрироваться">
+
+                </form>
+            </div>
+        </div>
+
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="footer__menu">
+                    <ul>
+                        <li><a href="">Правила акции</a></li>
+                        <li><a href="">Пользовательское согашение</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Обратная связь</a></li>
+                        <li><a href="">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+                <div class="footer__block">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/logo-footer.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="footer__desc">
+                        <p>* Подарочная карта в магазин бытовой техники на сумму 50 000 рублей.</p>
+                        <p>&copy; ООО "БТЛ групп". Все права защищены</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="js/jquery-3.2.1.js"></script>
+
+        <script src="js/jquery.fancybox.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
+
+
+

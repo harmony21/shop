@@ -1,0 +1,140 @@
+//resolutions
+$laptop: 1366px;
+$min-laptop: 1200px;
+$tablets: 1024px;
+$min-tablets: 768px;
+$phones: 480px;
+//config
+@mixin laptop {
+    @media screen and (max-width: $laptop) {
+        @content;
+    }
+}
+@mixin min-laptop {
+    @media screen and (max-width: $min-laptop) {
+        @content;
+    }
+}
+@mixin tablets {
+    @media screen and (max-width: $tablets) {
+        @content;
+    }
+}
+@mixin min-tablets {
+    @media screen and (max-width: $min-tablets) {
+        @content;
+    }
+}
+@mixin phones {
+    @media screen and (max-width: $phones) {
+        @content;
+    }
+}
+body {
+    font-size: 16px;
+    @include phones {
+        font-size: 13px;
+    }
+}
+.header {
+    background-color: #fcf344;
+}
+.menu {
+    ul {
+        li {
+            a {
+                color: #ff0000;
+                font-size: 18px;
+                @include min-laptop {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+.btn {
+    color: #fff;
+    font-size: 20px;
+    background-color: #ff0000;
+    &:hover {
+        color: #ff0000;
+        background-color: #ecbf2d;
+    }
+    @include min-laptop {
+        font-size: 14px;
+    }
+}
+.section-title {
+    font-size: 25px;
+    color: #0053a5;
+    background-color: #f8de50;
+}
+.footer {
+    &__menu {
+        ul {
+            li {
+                a {
+                    color: #fff;
+                    @include min-laptop {
+                        font-size: 12px;
+                    }
+                    &:hover {
+                        color: #f8de50;
+                    }
+                }
+            }
+        }
+    }
+    &__desc {
+        p {
+            color: #fff;
+            @include min-laptop {
+                font-size: 12px;
+            }
+            @include phones {
+                font-size: 10px;
+            }
+        }
+    }
+}
+.tab-wrapper label {
+    color: #0053a5;
+    @include tablets {
+        font-size: 13px;
+    }
+    @include phones {
+        font-size: 10px;
+    }
+}
+.tab-wrapper input:checked + label {
+    background-color: #0053a5;
+    color: #f8de50;
+}
+.tab-block {
+    ul {
+        li {
+            font-size: 20px;
+            @include tablets {
+                font-size: 16px;
+            }
+            @include phones {
+                font-size: 12px;
+            }
+        }
+    }
+    &.usual {
+        ul {
+            li {
+                &:first-child {
+                    font-size: 20px;
+                    @include tablets {
+                        font-size: 16px;
+                    }
+                    @include phones {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}

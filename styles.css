@@ -1,0 +1,79 @@
+body {
+  font-size: 16px; }
+  @media screen and (max-width: 480px) {
+    body {
+      font-size: 13px; } }
+
+.header {
+  background-color: #fcf344; }
+
+.menu ul li a {
+  color: #ff0000;
+  font-size: 18px; }
+  @media screen and (max-width: 1200px) {
+    .menu ul li a {
+      font-size: 14px; } }
+
+.btn {
+  color: #fff;
+  font-size: 20px;
+  background-color: #ff0000; }
+  .btn:hover {
+    color: #ff0000;
+    background-color: #ecbf2d; }
+  @media screen and (max-width: 1200px) {
+    .btn {
+      font-size: 14px; } }
+
+.section-title {
+  font-size: 25px;
+  color: #0053a5;
+  background-color: #f8de50; }
+
+.footer__menu ul li a {
+  color: #fff; }
+  @media screen and (max-width: 1200px) {
+    .footer__menu ul li a {
+      font-size: 12px; } }
+  .footer__menu ul li a:hover {
+    color: #f8de50; }
+
+.footer__desc p {
+  color: #fff; }
+  @media screen and (max-width: 1200px) {
+    .footer__desc p {
+      font-size: 12px; } }
+  @media screen and (max-width: 480px) {
+    .footer__desc p {
+      font-size: 10px; } }
+
+.tab-wrapper label {
+  color: #0053a5; }
+  @media screen and (max-width: 1024px) {
+    .tab-wrapper label {
+      font-size: 13px; } }
+  @media screen and (max-width: 480px) {
+    .tab-wrapper label {
+      font-size: 10px; } }
+
+.tab-wrapper input:checked + label {
+  background-color: #0053a5;
+  color: #f8de50; }
+
+.tab-block ul li {
+  font-size: 20px; }
+  @media screen and (max-width: 1024px) {
+    .tab-block ul li {
+      font-size: 16px; } }
+  @media screen and (max-width: 480px) {
+    .tab-block ul li {
+      font-size: 12px; } }
+
+.tab-block.usual ul li:first-child {
+  font-size: 20px; }
+  @media screen and (max-width: 1024px) {
+    .tab-block.usual ul li:first-child {
+      font-size: 16px; } }
+  @media screen and (max-width: 480px) {
+    .tab-block.usual ul li:first-child {
+      font-size: 13px; } }
