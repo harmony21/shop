@@ -117,8 +117,13 @@ body {
             @include tablets {
                 font-size: 16px;
             }
-            @include phones {
-                font-size: 12px;
+            @include min-tablets {
+                font-size: 7px;
+            }
+        }
+        span {
+            @include min-tablets {
+                font-size: 7px;
             }
         }
     }
@@ -130,8 +135,8 @@ body {
                     @include tablets {
                         font-size: 16px;
                     }
-                    @include phones {
-                        font-size: 13px;
+                    @include min-tablets {
+                        font-size: 7px;
                     }
                 }
             }
